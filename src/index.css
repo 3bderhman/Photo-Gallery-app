@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: content-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title h1{
+  color: rgb(239, 182, 178);
+}
+input{
+  display: none;
+}
+label{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(239, 182, 178);
+  border-radius: 50%;
+  margin: 10px auto;
+  line-height: 25px;
+  color: rgb(239, 182, 178);
+  font-weight: bold;
+  font-size: 24px;
+}
+label:hover{
+  background: rgb(239, 182, 178);
+  color: white;
+}
+.portfolio-img{
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+}
+.portfolio-img img{
+  width: 100%;
+  height: 100%;
+}
+.portfolio-img .protfolio-item{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all ease-in-out .5s;
+  display: none;
+}
+.portfolio-img .protfolio-item i{
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+}
+.portfolio-img .protfolio-item i{
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+}
+.portfolio-img:hover .protfolio-item{
+  display: flex;
+}
+.portfolio-modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.portfolio-modal-icon{
+  height: 10%;
+  text-align: end;
+  padding-top: 10px;
+}
+.modal-body{
+  position: relative;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.fa-times{
+  font-size: 40px;
+  color: rgba(26, 188, 156, 0.9);
+  cursor: pointer;
+}
+.modal-body .modal-img{
+  width: 50%;
+}
+@media (max-width: 1200px) and (min-width: 992px){
+}
+@media (max-width: 991px) and (min-width: 768px){
+  .modal-body .modal-img{
+    width: 70%;
+    height: auto;
+}
+}
+@media (max-width: 768px){
+  .modal-body .modal-img{
+    width: 90%;
+  }
 }
