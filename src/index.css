@@ -23,6 +23,11 @@ label:hover{
   background: rgb(239, 182, 178);
   color: white;
 }
+.selectedImg{
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
 .portfolio-img{
   overflow: hidden;
   margin-bottom: 30px;
