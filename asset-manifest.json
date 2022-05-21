@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Photo-Gallery-app/static/css/main.9b8bde83.css",
-    "main.js": "/Photo-Gallery-app/static/js/main.368a0a46.js",
+    "main.css": "/Photo-Gallery-app/static/css/main.68ce0331.css",
+    "main.js": "/Photo-Gallery-app/static/js/main.dab626eb.js",
     "static/media/fa-solid-900.ttf": "/Photo-Gallery-app/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/fa-brands-400.ttf": "/Photo-Gallery-app/static/media/fa-brands-400.b823fc0dbb5a5f0c21bb.ttf",
     "static/media/fa-solid-900.woff2": "/Photo-Gallery-app/static/media/fa-solid-900.59edf72a325ac2048d60.woff2",
@@ -11,11 +11,11 @@
     "static/media/fa-v4compatibility.ttf": "/Photo-Gallery-app/static/media/fa-v4compatibility.4baccb548138840fa33a.ttf",
     "static/media/fa-v4compatibility.woff2": "/Photo-Gallery-app/static/media/fa-v4compatibility.afac89562a5301459069.woff2",
     "index.html": "/Photo-Gallery-app/index.html",
-    "main.9b8bde83.css.map": "/Photo-Gallery-app/static/css/main.9b8bde83.css.map",
-    "main.368a0a46.js.map": "/Photo-Gallery-app/static/js/main.368a0a46.js.map"
+    "main.68ce0331.css.map": "/Photo-Gallery-app/static/css/main.68ce0331.css.map",
+    "main.dab626eb.js.map": "/Photo-Gallery-app/static/js/main.dab626eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b8bde83.css",
-    "static/js/main.368a0a46.js"
+    "static/css/main.68ce0331.css",
+    "static/js/main.dab626eb.js"
   ]
 }
